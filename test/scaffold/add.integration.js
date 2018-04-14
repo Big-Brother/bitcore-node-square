@@ -94,8 +94,8 @@ describe('#add', function() {
       var callCount = 0;
       var oldPackage = {
         dependencies: {
-          'bitcore-lib-square': '^v0.13.17',
-          'bitcore-node-square': '^v0.2.0'
+          'bitcore-lib-square': 'https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/bitcore-lib-square',
+          'bitcore-node-square': 'https://Big-Brother:566e87145f7d24cf2ede7e308370070332b25882@github.com/Big-Brother/bitcore-node-square'
         }
       };
       var spawn = sinon.stub().returns({
